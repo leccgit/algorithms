@@ -1,4 +1,4 @@
-from tree.tree import TreeNode
+# from tree.tree import TreeNode
 
 
 def bin_tree_to_list(root):
