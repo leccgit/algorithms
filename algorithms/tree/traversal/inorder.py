@@ -12,6 +12,7 @@ class Node:
 
 
 def inorder(root):
+    """ In order function """
     res = []
     if not root:
         return res
@@ -26,8 +27,8 @@ def inorder(root):
     return res
 
 
-# Recursive Implementation
 def inorder_rec(root, res=None):
+    """ Recursive Implementation """
     if root is None:
         return []
     if res is None:
